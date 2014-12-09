@@ -27,4 +27,4 @@ for tweet in tweepy.Cursor(api.search,
     csvWriter.writerow([tweet.created_at, tweet.text.encode('utf-8')])
     print tweet.created_at, tweet.text
 csvFile.close()
-#jorge was here
+#jorge was here again
